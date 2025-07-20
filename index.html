@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petugas Sholat</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    .hidden {
+      display: none;
+    }
+    .info {
+      margin-top: 40px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2, h3 {
+      margin-top: 30px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .creator {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 14px;
+      color: white;
+      background-color: black;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="creator">Created by Devlin</div>
+  <h1>Website Petugas Sholat</h1>
+  <button class="btn" onclick="showInfo()">Petugas Sholat Dhuha & Zuhur</button>
+
+  <div id="info" class="info hidden">
+    <h2>Petugas Shalat Dhuha dan Shalat Zuhur</h2>
+
+    <p>
+      <strong>Shalat Dhuha</strong><br>
+      - Senin: Setelah upacara bendera<br>
+      - Selasa s.d. Kamis: Pukul 07.00 s.d 07.15<br>
+      <br>
+      <strong>Peralatan Shalat:</strong><br>
+      - Laki-laki: Peci, Sajadah<br>
+      - Perempuan: Mukena, Sajadah<br>
+      <br>
+      Petugas membersihkan musala SMPN 37.<br>
+      Kelas yang bertugas menyiapkan petugas azan dan iqomah shalat Zuhur.
+    </p>
+
+    <h3>Juli</h3>
+    <table>
+      <tr><th>Hari</th><th>Tanggal</th><th>Kelas</th></tr>
+      <tr><td>Senin</td><td>21</td><td>8.1</td></tr>
+      <tr><td>Selasa</td><td>22</td><td>8.2</td></tr>
+      <tr><td>Rabu</td><td>23</td><td>8.3</td></tr>
+      <tr><td>Kamis</td><td>24</td><td>8.4</td></tr>
+      <tr><td>Senin</td><td>-</td><td>8.5</td></tr>
+      <tr><td>Selasa</td><td>29</td><td>9.1</td></tr>
+      <tr><td>Rabu</td><td>30</td><td>9.2</td></tr>
+      <tr><td>Kamis</td><td>31</td><td>9.3</td></tr>
+    </table>
+
+    <h3>Agustus</h3>
+    <table>
+      <tr><th>Hari</th><th>Tanggal</th><th>Kelas</th></tr>
+      <tr><td>Senin</td><td>-</td><td>9.4</td></tr>
+      <tr><td>Selasa</td><td>5</td><td>9.5</td></tr>
+      <tr><td>Rabu</td><td>6</td><td>7.1</td></tr>
+      <tr><td>Kamis</td><td>7</td><td>7.2</td></tr>
+      <tr><td>Senin</td><td>11</td><td>7.3</td></tr>
+      <tr><td>Selasa</td><td>12</td><td>7.4</td></tr>
+      <tr><td>Rabu</td><td>13</td><td>7.5</td></tr>
+      <tr><td>Kamis</td><td>14</td><td>7.6</td></tr>
+      <tr><td>Senin</td><td>18</td><td>8.1</td></tr>
+      <tr><td>Selasa</td><td>19</td><td>8.2</td></tr>
+      <tr><td>Rabu</td><td>20</td><td>8.3</td></tr>
+      <tr><td>Kamis</td><td>21</td><td>8.4</td></tr>
+      <tr><td>Senin</td><td>-</td><td>8.5</td></tr>
+      <tr><td>Selasa</td><td>26</td><td>9.1</td></tr>
+      <tr><td>Rabu</td><td>27</td><td>9.2</td></tr>
+      <tr><td>Kamis</td><td>28</td><td>9.3</td></tr>
+    </table>
+
+    <h3>September</h3>
+    <table>
+      <tr><th>Hari</th><th>Tanggal</th><th>Kelas</th></tr>
+      <tr><td>Senin</td><td>1</td><td>9.4</td></tr>
+      <tr><td>Selasa</td><td>2</td><td>9.5</td></tr>
+      <tr><td>Rabu</td><td>3</td><td>7.1</td></tr>
+      <tr><td>Kamis</td><td>4</td><td>7.2</td></tr>
+      <tr><td>Senin</td><td>8</td><td>7.3</td></tr>
+      <tr><td>Selasa</td><td>9</td><td>7.4</td></tr>
+      <tr><td>Rabu</td><td>10</td><td>7.5</td></tr>
+      <tr><td>Kamis</td><td>11</td><td>7.6</td></tr>
+      <tr><td>Senin</td><td>15</td><td>8.1</td></tr>
+      <tr><td>Selasa</td><td>16</td><td>8.2</td></tr>
+      <tr><td>Rabu</td><td>17</td><td>8.3</td></tr>
+      <tr><td>Kamis</td><td>18</td><td>8.4</td></tr>
+      <tr><td>Senin</td><td>22</td><td>8.5</td></tr>
+      <tr><td>Selasa</td><td>23</td><td>9.1</td></tr>
+      <tr><td>Rabu</td><td>24</td><td>9.2</td></tr>
+      <tr><td>Kamis</td><td>25</td><td>9.3</td></tr>
+    </table>
+  </div>
+
+  <script>
+    function showInfo() {
+      document.getElementById('info').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
